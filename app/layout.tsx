@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Aileron, Caveat } from "next/font/google";
+import { Poppins, Caveat } from "next/font/google";
 import "./globals.css";
 
-const aileron = Aileron({
-  variable: "--font-aileron",
+const poppins = Poppins({
+  variable: "--font-poppins",
   subsets: ["latin"],
   weight: ["400", "600", "700"],
 });
@@ -27,9 +27,9 @@ export default function RootLayout({
   return (
     <html
       lang="es"
-      className={`${aileron.variable} ${caveat.variable} h-full antialiased`}
+      className={`${poppins.variable} ${caveat.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-cream text-gray-900 font-aileron">{children}</body>
+      <body className="min-h-full flex flex-col bg-cream text-gray-900 font-poppins">{children}</body>
     </html>
   );
 }

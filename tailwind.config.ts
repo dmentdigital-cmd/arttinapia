@@ -8,7 +8,7 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        aileron: "var(--font-aileron)",
+        poppins: "var(--font-poppins)",
         caveat: "var(--font-caveat)",
       },
       colors: {
