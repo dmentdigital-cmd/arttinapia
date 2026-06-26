@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section id="inicio" className="bg-gradient-to-b from-rose-200 via-rose-100 to-rose-200 py-20 md:py-32">
+    <section id="inicio" className="bg-gradient-to-b from-rose-200 via-rose-100 to-rose-200 texture-arttinapia py-20 md:py-32">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
@@ -30,8 +30,12 @@ export default function Hero() {
             </div>
           </div>
           <div className="relative">
-            <div className="bg-gradient-to-br from-blue-light to-pink/30 rounded-3xl h-96 flex items-center justify-center">
-              <p className="text-gray-400 text-center">Espacio para foto principal</p>
+            <div className="bg-white rounded-3xl h-96 overflow-hidden border-4 border-gray-800 shadow-lg">
+              <img
+                src="/fotos/pagina_3.webp"
+                alt="Artinapia"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
         </div>
