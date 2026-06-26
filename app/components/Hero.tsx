@@ -32,8 +32,8 @@ export default function Hero() {
           <div className="relative">
             <div className="bg-white rounded-3xl h-96 overflow-hidden border-4 border-gray-800 shadow-lg">
               <img
-                src="/fotos/pagina_1.webp"
-                alt="Artinapia"
+                src="/fotos/hero-image.webp"
+                alt="Artinapia - La muchacha"
                 className="w-full h-full object-cover"
               />
             </div>
