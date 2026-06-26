@@ -30,8 +30,12 @@ export default function Hero() {
             </div>
           </div>
           <div className="relative">
-            <div className="bg-gradient-to-br from-blue-light to-pink/30 rounded-3xl h-96 flex items-center justify-center">
-              <p className="text-gray-400 text-center">Espacio para foto principal</p>
+            <div className="bg-white rounded-3xl h-96 overflow-hidden border-4 border-gray-800 shadow-lg">
+              <img
+                src="/fotos/pagina_1.webp"
+                alt="Artinapia"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
         </div>
